@@ -10,3 +10,23 @@ function displayTemplate($template, $array)
     $twig->addExtension(new \Twig\Extension\DebugExtension());
     $twig->display($template, $array);
 }
+
+    function error($errorNumber, $errorMessage)
+{
+    http_response_code($errorNumber);
+    displayTemplate("layouts/error.twig", array("error" => $errorMessage));
+    exit();
+}
+function getPath(): array
+{
+    $path = strtok($_GET['params'], '?');
+    while (str_contains($path, '//')) {
+        $path = str_replace('//', '/', $path);
+    }
+
+    if ($path === '/') {
+        return [];
+    }
+
+    return explode('/', trim($path, '/'));
+}
