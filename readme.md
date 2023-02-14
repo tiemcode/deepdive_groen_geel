@@ -2,7 +2,7 @@
 
 dit is voor de remix van groen geel website
 
-## techniques that ware used
+## techniques that were used
 
 - [html](https://html.com/)
   - [twig](https://twig.symfony.com/)
