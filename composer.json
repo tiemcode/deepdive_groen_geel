@@ -1,0 +1,20 @@
+{
+    "name": "timoj/deepdive_groen_geel",
+    "require": {
+        "twig/twig": "3.4"
+    },
+    "authors": [
+        {
+            "name": "timo zuidinga",
+            "email": "tzuidinga@st.noorderpoort.nl"
+        }
+    ],
+    "autoload": {
+        "files": [
+
+        ],
+        "classmap": [
+            
+        ]
+    }
+}
