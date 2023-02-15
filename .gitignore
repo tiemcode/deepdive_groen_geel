@@ -1,3 +1,4 @@
 /vendors/*
 /vendor/*
 *.xml
+/node_modules/*
