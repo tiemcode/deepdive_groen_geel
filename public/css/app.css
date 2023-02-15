@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle #l1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle #l2 {
+    opacity: 0;
+}
+
+.toggle #l3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav-icon-triangle{
+    clip-path: polygon(0 0, 100% 0, 11% 100%, 0% 100%);
+}

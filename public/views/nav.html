@@ -1,0 +1,44 @@
+<nav class="fixed z-50 w-full nav-bar md:bg-white bg-primary">
+    <div class="nav-icon-bg max-md:hidden bg-primary h-16 w-36 lg:w-1/12 2xl:w-1/5 3xl:w-[27vw] absolute -z-10">
+    </div>
+    <div class="max-w-7xl mx-auto px-6">
+        <div class="flex justify-between">
+            <div class="flex justify-between w-full space-x-7">
+                <!-- Website Logo -->
+                <div class="flex">
+                    <a href="/index" class="flex items-center py-4 px-2 link bg-primary">
+                        <img src="https://groen-geel.nl/wp-content/uploads/2017/12/logo-gvgroengeel-klein.png"
+                            alt="Logo" class="h-8 w-auto mr-2">
+                    </a>
+                    <div class="nav-icon-triangle max-md:hidden bg-primary h-16 w-20 -ml-0.5 "></div>
+                </div>
+                <!-- Primary Navbar items -->
+                <div class="hidden md:flex items-center gap-4 space-x-1">
+                    <a href="/index" class="nav-text-desktop">HOME</a>
+                    <a href="/nieuws" class="nav-text-desktop">NIEUWS</a>
+                    <a href="/rooster" class="nav-text-desktop">ROOSTER</a>
+                    <a href="/inschrijfen" class="nav-text-desktop">INSCHRIJVEN</a>
+                    <a href="/info" class="nav-text-desktop">OVER ONS</a>
+                </div>
+            </div>
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <div class="burger mobile-menu-button">
+                    <div id="l1" class="bg-white hover:text-gray"></div>
+                    <div id="l2" class="bg-white hover:text-gray"></div>
+                    <div id="l3" class="bg-white hover:text-gray"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="h-0 mobile-menu shadow-md overflow-hidden">
+        <ul class="">
+            <li><a href="/home" class="nav-text-mobile link text-white px-2 py-5">HOME</a></li>
+            <li><a href="/nieuws" class="nav-text-mobile link text-white px-2 py-5">NIEUWS</a></li>
+            <li><a href="/rooster" class="nav-text-mobile link text-white px-2 py-5">ROOSTER</a></li>
+            <li><a href="/inschrijven" class="nav-text-mobile link text-white px-2 py-5">INSCHRIJVEN</a></li>
+            <li><a href="/about" class="nav-text-mobile link text-white px-2 py-5">OVER ONS</a></li>
+        </ul>
+    </div>
+</nav>
