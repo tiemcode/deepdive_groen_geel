@@ -5,10 +5,10 @@ dit is voor de remix van groen geel website
 ## techniques that were used
 
 - [html](https://html.com/)
-  - [twig](https://twig.symfony.com/)
 - [css](https://web.dev/learn/css/)
+  -[tailwind](https://tailwindcss.com)
 - [php](https://www.php.net/)
-  - [OOP](https://www.php.net/manual/en/language.oop5.changelog.php)
+
 
 ## installation
 
