@@ -4,6 +4,15 @@ module.exports = {
     "./public/**/*.{html,js,css,php}"
   ],
   theme: {
+    theme: {
+      backgroundSize: {
+        'auto': 'auto',
+        'cover': 'cover',
+        'contain': 'contain',
+        '50%': '50%',
+        '16': '4rem',
+      }
+    },
     extend: {
       colors: {
         'primary': '#008C50',
@@ -16,10 +25,19 @@ module.exports = {
       },
       width: {
         '38': '9.29rem',
+<<<<<<< HEAD
+        '10': '27vw',
+      },
+      heigt:{
+        '50%': '50%',
+=======
         '800': '50rem',
         '400': '26.75rem'
+>>>>>>> d4ebface95fbc5d34d848cba9f8ddfdf5e071fee
       }
+
     },
   },
   plugins: [],
 }
+
