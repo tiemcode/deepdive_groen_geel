@@ -11,7 +11,7 @@
 <body>
     <?php require("nav.html") ?>
     <div class="container-rooster mx-auto px-6 max-w-7xl pt-60">
-        <div class="dropdowns flex justify-evenly">
+        <div class="dropdowns flex gap-10 justify-center">
             <!-- dropdown -->
             <div class="relative inline-block text-left">
                 <div>
@@ -82,6 +82,7 @@
             <div class="hidden rooster bar-rooster mt-8">
                 <div class="-my-2 -mx-6 overflow-x-auto lg:-mx-8">
                     <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                        <p class="text-center mb-5 text-2xl md:text-3xl">Bar rooster</p>
                         <table class="min-w-full">
                             <thead>
                                 <tr class="bg-primary text-white">
@@ -133,6 +134,7 @@
             <div class="rooster schoonmaak-rooster mt-8">
                 <div class="-my-2 -mx-6 overflow-x-auto lg:-mx-8 min-w-full">
                     <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                        <p class="text-center mb-5 text-2xl md:text-3xl">Schoonmaak rooster</p>
                         <table class="min-w-full">
                             <thead>
                                 <tr class="bg-primary text-white">
@@ -166,6 +168,7 @@
             <div class="rooster training-rooster mt-8 hidden">
                 <div class="-my-2 -mx-6 overflow-x-auto lg:-mx-8 min-w-full">
                     <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+                        <p class="text-center mb-5 text-2xl md:text-3xl">Training rooster</p>
                         <table class="min-w-full">
                             <thead>
                                 <tr class="bg-primary text-white">
