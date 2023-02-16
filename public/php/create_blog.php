@@ -2,19 +2,15 @@
 
 require("../../conn.php");
 if (isset($_POST["opslaan"])) {
-    $kaas = "INSERT INTO `lidmaatschap` (`voornaam`,`achternaam`,`email`,`telefoon`,`bericht`)
-    VALUES(       
-        '{$_POST['voornaam']}',
-        '{$_POST['achternaam']}',
-        '{$_POST['email']}',
-        '{$_POST['nummer']}',
+    $kaas = "INSERT INTO `blog` (`titel`,`bericht`)
+    VALUES(
+        '{$_POST['titel']}',
         '{$_POST['bericht']}')";
     $add_update = $dbh->query($kaas);
     // header("Location: index.php");
 };
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,12 +28,9 @@ if (isset($_POST["opslaan"])) {
     </div>
     <div id="contaner">
         <form id="formbrr" method="POST">
-            voornaam<input type="text" name="voornaam">
-            achternaam<input type="text" name="achternaam">
-            email<input type="text" name="email">
-            telefoon nummer<input type="tel" name="nummer">
+            title<input type="text" name="titel">
             bericht<textarea cols="30" rows="10" name="bericht"></textarea>
-            <input type="submit" name="opslaan"></input>
+            <input type="submit" name="opslaan">
         </form>
     </div>
 
