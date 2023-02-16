@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../dist/style.css">
     <script src="../js/app.js" defer></script>
-    <title>Document</title>
+    <title>Groen Geel</title>
 </head>
 
 <body>
     <?php require("nav.html") ?>
     <div class="w-full -z-10">
-        <img src="../img/team.png" alt="" width="100%" height="100%" class="object-cover w-full h-1/3 sm:h-1/2 md:h-1/3 lg:1/4 -z-10 relative brightness-50">
+        <img src="../img/team.png" alt="" width="100%" height="100%" class="object-cover w-full h-1/3 sm:h-1/2 md:h-1/3 lg:h-1/4 -z-10 relative brightness-50">
     </div>
     <div class="container mx-auto px-6 max-w-7xl -mt-20 md:-mt-72 lg:-mt-96 z-10 relative">
         <!-- hero -->
