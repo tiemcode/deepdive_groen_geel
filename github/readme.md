@@ -9,7 +9,6 @@ dit is voor de remix van groen geel website
   -[tailwind](https://tailwindcss.com)
 - [php](https://www.php.net/)
 
-
 ## installation
 
 1. clone the Repositories
@@ -18,3 +17,8 @@ dit is voor de remix van groen geel website
 4. turn on apache
 5. turn phpmyadmin
 6. open localhost in your bowser
+
+1. @todo about us
+
+3. @todo inschijf forelier
+

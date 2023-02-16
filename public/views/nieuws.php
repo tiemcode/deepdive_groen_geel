@@ -1,3 +1,10 @@
+<?php
+
+require("../../conn.php");
+
+$allnieuws = $dbh->query("SELECT * FROM `blog`")->fetchall();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,17 +24,17 @@
         <div class="grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-10">
 
             <!-- begin loop -->
-            <?php for ($i = 0; $i < 5; $i++) : ?>
+            <?php foreach ($allnieuws as $row) : ?>
                 <!-- card -->
                 <div class="card rounded-md shadow-md bg-white h-fit">
                     <img src="../img/team.png" alt="" width="100%" height="100%" class="rounded-t-md object-cover">
                     <div class="px-3 py-5 flex justify-between">
-                        <h1 class="font-bold">Titel nieuwsbericht</h1>
-                        <p class="text-right">datum van upload</p>
+                        <h1 class="font-bold"><a href="show_blogs.php?id=<?= $row["blogId"] ?>"><?= $row["titel"]?></a></h1>
+                        <p class="text-right"><?= $row['gemaakt_op'] ?></p>
                     </div>
                 </div>
                 <!-- end loop -->
-            <?php endfor ?>
+            <?php endforeach ?>
         </div>
     </div>
     </div>

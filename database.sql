@@ -8,7 +8,7 @@ CREATE TABLE `users` (
     `userid` INT AUTO_INCREMENT PRIMARY KEY,
     `Name` varchar(45) DEFAULT NULL,
     `Wachtwoord` varchar(45) DEFAULT NULL,
-    `Rechten` varchar(45) DEFAULT NULL PRIMARY KEY (`userid`)
+    `Rechten` varchar(45) DEFAULT NULL
 );
 
 INSERT INTO
@@ -28,5 +28,6 @@ CREATE TABLE lidmaatschap(
 CREATE TABLE blog(
     `blogId` INT AUTO_INCREMENT PRIMARY KEY,
     `titel` varchar(60) DEFAULT NULL,
-    `bericht` text DEFAULT NULL
+    `bericht` text DEFAULT NULL,
+    `gemaakt_op` DATA
 )

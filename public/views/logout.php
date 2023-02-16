@@ -4,9 +4,9 @@ if (!isset($_SESSION['id'])) {
     header('Location:login.php');
     exit();
 } ?>
-<div id="logout">
+<div class>
     <form method="post">
-        <button name="logout" type="submit">log uit</button>
+        <button class="bg-primary rounded-2xl p-2 text-white" name="logout" type="submit">log uit</button>
     </form>
 </div>
 <?php
@@ -15,4 +15,3 @@ if (isset($_POST["logout"])) {
     header('Location:login.php');
     die();
 }
-echo $_SESSION['id'];
