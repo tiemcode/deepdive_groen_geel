@@ -28,3 +28,7 @@
 .green{
     clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
 }
+
+.container-rooster{
+    padding-top: 10rem;
+}
