@@ -24,3 +24,11 @@
 .nav-icon-triangle {
     clip-path: polygon(0 0, 100% 0, 11% 100%, 0% 100%);
 }
+
+.green{
+    clip-path: polygon(0 0, 100% 0, 87% 100%, 0% 100%);
+}
+
+.container-rooster{
+    padding-top: 10rem;
+}
