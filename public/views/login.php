@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['loggedInUser'] = $fetch["Name"];
             $_SESSION['id'] = $fetch['userid'];
             //zet hier waar de ingelogte user heen moet
-            header('Location:admin_dash_bord.php');
+            header('Location:admin.php');
             exit();
         } else {
             echo "oops something went wrong";
