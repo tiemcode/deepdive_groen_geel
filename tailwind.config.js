@@ -25,15 +25,12 @@ module.exports = {
       },
       width: {
         '38': '9.29rem',
-<<<<<<< HEAD
         '10': '27vw',
       },
       heigt:{
         '50%': '50%',
-=======
         '800': '50rem',
         '400': '26.75rem'
->>>>>>> d4ebface95fbc5d34d848cba9f8ddfdf5e071fee
       }
 
     },
