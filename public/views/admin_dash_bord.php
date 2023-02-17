@@ -25,7 +25,7 @@ $allpeople = $dbh->query("SELECT * FROM `lidmaatschap`")->fetchall();
     <title>Document</title>
 </head>
 
-<body class="bg-slate-100">
+<body>
     <?php include("nav.html"); ?>
     <div class="pt-32 flex justify-evenly ">
         <div>
