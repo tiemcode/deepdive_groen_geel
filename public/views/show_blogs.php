@@ -19,7 +19,7 @@ $id = $_GET["id"];
     <div class="overflow-hidden rounded-lg bg-white shadow pt-32">
         <div class="px-4 py-5 sm:p-6 ">
             <div class="flex flex-col">
-                <h2 class="bg-primary rounded-2xl p-2 text-white"><a href="nieuws.php">ga terug</a></h2>
+                <h2 class="bg-primary rounded-sm p-2 text-white"><a href="nieuws.php">ga terug</a></h2>
                 <h1 class="font-semibold text-xl"><?= $id_blog["titel"] ?></h1>
                 <p>
                     <?= $id_blog['bericht'] ?>

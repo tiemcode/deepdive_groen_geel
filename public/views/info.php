@@ -15,9 +15,9 @@
         <div class="w-full -z-10">
             <img src="../img/team.png" alt="" width="100%" height="100%" class="object-cover w-full h-2/6 sm:h-1/2 md:h-1/3 lg:h-1/4 -z-10 relative brightness-50">
         </div>
-        <h1 class="front-bold text-5xl text-green-600 text-center">Over de club</h1>
+        <h1 class="front-bold mt-8 text-5xl text-green-600 text-center">Over de club</h1>
         <div class="flex justify-center items-center flex-col pt-5">
-            <h2 class="front-bold text-5xl text-green-600 text-left ml-80 mt-10 mb-10">Kop d`r veur</h2>
+            <h2 class="front-bold text-4xl text-green-600 text-center">Kop d`r veur</h2>
             <p class="text-center break-words mx-80 inline-block">Groen Geel is een dynamische en jonge voetbalvereniging in Groningen. De
                 voetbalvereniging
                 voor (ex)studenten en
@@ -38,9 +38,9 @@
                 voornamelijk mensen tussen de 20 en 35 jaar is er altijd wat te doen bij club. Naast voetbalwedstrijden zijn
                 feesten, quizzen en spelavonden vaste prik.</p>
         </div>
-        <div class="flex justify-evenly	easter_days">
+        <div class="flex mt-8 justify-evenly	easter_days">
             <div>
-                <h1 class="front-bold text-5xl text-green-600 text-left ml-80 mt-10 mb-10">Geschiedenis</h1>
+                <h1 class="front-bold text-4xl text-green-600 text-center">Geschiedenis</h1>
                 <p class="text-center break-words mx-80 inline-block">In die tijd was het voetballen heel anders dan nu. Voetbalvelden waren er haast niet en die er waren werden
                     gebruikt door een paar grote verenigingen. Groen Geel moest zich behelpen met vlakten van opgespoten land, die
                     toen lagen aan de Singelweg (nu de Petrus Campersingel). Op deze zandvlakten zijn vele voetbalclubs ontstaan.
