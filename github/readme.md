@@ -11,14 +11,10 @@ dit is voor de remix van groen geel website
 
 ## installation
 
-1. clone the Repositories
-2. open XAMPP (for mac MAMP)
-3. put the file where you host your localhost (like htdocs)
-4. turn on apache
-5. turn phpmyadmin
-6. open localhost in your bowser
-
-1. @todo about us
-
-3. @todo inschijf forelier
+1. open het mapje
+2. zet het mapje waar he een project kan open
+3. start xampp (of iets waar je een sql server hen lopen)
+4. maak in de je sql server een nieuwe user aan met het wachtwoord en het gebruikers naam bit_academy
+5. voer de database.sql uit in je sql database 
+6. open je project met php 
 
